@@ -1,0 +1,397 @@
+.about-me {
+  height: 55vh;
+  width: 100%;
+  background-color: var(--color1);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+  .left-ab {
+    width: 27vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .la-subtitle {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 25px;
+      width: 150px;
+      height: 32px;
+      border-bottom: 2px solid var(--color2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .la-title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 45px;
+      font-weight: 600;
+      width: 430px;
+      color: white;
+    }
+    .la-par {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 25px;
+      width: 450px;
+      color: white;
+    }
+  }
+  .middle-img {
+    background-color: grey;
+    width: 17vw;
+    height: 45vh;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+    border-radius: 12px;
+
+    video {
+      width: 220px;
+      height: 550px;
+    }
+  }
+  .right-ab {
+    //   background-color: red;
+    width: 27vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+// styling the viewport for 1400px
+@media screen and (max-width: 1400px) {
+}
+// styling the viewport for 1200px
+@media screen and (max-width: 1200px) {
+  .about-me {
+    height: 105vh;
+    width: 100%;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .left-ab {
+      width: 27vw;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 50px;
+
+      .la-subtitle {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        width: 150px;
+        height: 32px;
+        border-bottom: 2px solid var(--color2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+      .la-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        width: 575px;
+        color: white;
+      }
+      .la-par {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        width: 575px;
+        color: white;
+      }
+    }
+    .middle-img {
+      background-color: grey;
+      width: 17vw;
+      height: 45vh;
+      padding-left: 30px;
+      padding-right: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+      border-radius: 12px;
+      margin-top: 100px;
+      video {
+        width: 370px;
+        height: 575px;
+      }
+    }
+    .right-ab {
+      //   background-color: red;
+      width: 27vw;
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
+}
+// styling the viewport for 900px
+@media screen and (max-width: 900px) {
+  .about-me {
+    height: 95vh;
+    width: 100%;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .left-ab {
+      width: 27vw;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 50px;
+
+      .la-subtitle {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        width: 150px;
+        height: 32px;
+        border-bottom: 2px solid var(--color2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+      .la-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        width: 575px;
+        color: white;
+      }
+      .la-par {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        width: 575px;
+        color: white;
+      }
+    }
+    .middle-img {
+      background-color: grey;
+      width: 17vw;
+      height: 45vh;
+      padding-left: 30px;
+      padding-right: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+      border-radius: 12px;
+      margin-top: 100px;
+      video {
+        width: 370px;
+        height: 575px;
+      }
+    }
+    .right-ab {
+      //   background-color: red;
+      width: 27vw;
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
+}
+// styling viewport for 780px
+@media screen and (max-width: 780px) {
+  .about-me {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .left-ab {
+      width: 27vw;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      // padding-top: 50px;
+      margin-top: -40px;
+
+      .la-subtitle {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        width: 150px;
+        height: 32px;
+        border-bottom: 2px solid var(--color2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-bottom: 30px;
+      }
+      .la-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        width: 370px;
+        color: white;
+      }
+      .la-par {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 20px;
+        width: 370px;
+        color: white;
+      }
+    }
+    .middle-img {
+      background-color: grey;
+      width: 17vw;
+      height: 45vh;
+      padding-left: 30px;
+      padding-right: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+      border-radius: 12px;
+      margin-top: 100px;
+      video {
+        width: 370px;
+        height: 575px;
+      }
+    }
+    .right-ab {
+      //   background-color: red;
+      width: 27vw;
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
+}
+// styling viewport for 420px
+@media screen and (max-width: 420px) {
+  .about-me {
+    height: 100vh;
+    width: 100%;
+    background-color: var(--color1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .left-ab {
+      width: 27vw;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      // padding-top: 50px;
+      margin-top: -40px;
+
+      .la-subtitle {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 20px;
+        width: 150px;
+        height: 32px;
+        border-bottom: 2px solid var(--color2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-bottom: 30px;
+      }
+      .la-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+        width: 300px;
+        color: white;
+      }
+      .la-par {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 18px;
+        width: 300px;
+        color: white;
+      }
+    }
+    .middle-img {
+      background-color: grey;
+      width: 17vw;
+      height: 45vh;
+      padding-left: 30px;
+      padding-right: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+      border-radius: 12px;
+      margin-top: 100px;
+      video {
+        width: 320px;
+        height: 475px;
+      }
+    }
+    .right-ab {
+      //   background-color: red;
+      width: 27vw;
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+  }
+}

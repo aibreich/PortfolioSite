@@ -1,0 +1,1118 @@
+// coding language showcase
+.code-showcase {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color2);
+  box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+  .code-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-size: 45px;
+    font-weight: 700px;
+    color: white;
+  }
+
+  .code-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .code-content {
+      width: 250px;
+      height: 180px;
+      perspective: 1000px;
+
+      .code-items {
+        // cursor: grab;
+        position: relative;
+        transform-style: preserve-3d;
+        width: 100%;
+        height: 100%;
+
+        .code-item {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          user-select: none;
+
+          img {
+            width: 200px;
+            height: 200px;
+            border-radius: 3px;
+            pointer-events: none;
+            opacity: 0.95;
+            transition: 0.3s;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            outline: none;
+          }
+        }
+        .code-item:hover img {
+          opacity: 1;
+          scale: 1.05;
+        }
+      }
+    }
+  }
+}
+// code 2 section
+.code2 {
+  width: 100%;
+  height: 995px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--color3);
+  box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+  .code-title {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+      Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-size: 45px;
+    font-weight: 700px;
+    color: white;
+    width: 350px;
+    height: 50px;
+    // margin-bottom: 250px;
+  }
+  .code-top {
+    height: 325px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 62px;
+
+    .code-tleft {
+      width: 40vw;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .la-subtitle {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        width: 125px;
+        height: 32px;
+        border-bottom: 2px solid var(--color2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+      .la-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        width: 430px;
+        color: white;
+        text-align: left;
+      }
+      .la-par {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        width: 450px;
+        color: white;
+        text-align: left;
+      }
+    }
+    .code-tright {
+      width: 40vw;
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      .figma {
+        width: 575px;
+        height: 375px;
+        background-image: url("/css/imgs/figma1.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+        border-radius: 12px;
+      }
+    }
+  }
+  .code-bottom {
+    height: 325px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    // padding-top: 75px;
+
+    .code-bleft {
+      width: 40vw;
+      height: 45vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .la-subtitle {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        width: 125px;
+        height: 32px;
+        border-bottom: 2px solid var(--color2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+      }
+      .la-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 45px;
+        font-weight: 600;
+        width: 430px;
+        color: white;
+        text-align: right;
+      }
+      .la-par {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        width: 450px;
+        color: white;
+        text-align: right;
+      }
+    }
+    .code-bright {
+      width: 40vw;
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      .figma {
+        width: 575px;
+        height: 375px;
+        background-image: url("/css/imgs/figma2.png");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+        border-radius: 12px;
+      }
+    }
+  }
+}
+// styling the viewport for 1200px
+@media screen and (max-width: 1200px) {
+  .code-showcase {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color2);
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .code-title {
+      font-size: 40px;
+      font-weight: 700px;
+    }
+
+    .code-lang {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .code-content {
+        width: 250px;
+        height: 180px;
+        perspective: 1000px;
+
+        .code-items {
+          // cursor: grab;
+          position: relative;
+          transform-style: preserve-3d;
+          width: 100%;
+          height: 100%;
+
+          .code-item {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+
+            img {
+              width: 200px;
+              height: 200px;
+              border-radius: 3px;
+              pointer-events: none;
+              opacity: 0.95;
+              transition: 0.3s;
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              outline: none;
+            }
+          }
+          .code-item:hover img {
+            opacity: 1;
+            scale: 1.05;
+          }
+        }
+      }
+    }
+  }
+  .code2 {
+    width: 100%;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color3);
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .code-title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 45px;
+      font-weight: 700px;
+      color: white;
+      width: 350px;
+      height: 50px;
+      // margin-bottom: 250px;
+    }
+    .code-top {
+      height: 325px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 162px;
+
+      .code-tleft {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .la-subtitle {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          width: 125px;
+          height: 32px;
+          border-bottom: 2px solid var(--color2);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+        .la-title {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 45px;
+          font-weight: 600;
+          width: 575px;
+          color: white;
+          text-align: left;
+        }
+        .la-par {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          width: 575px;
+          color: white;
+          text-align: left;
+        }
+      }
+      .code-tright {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        .figma {
+          width: 575px;
+          height: 375px;
+          background-image: url("/css/imgs/figma1.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+          border-radius: 12px;
+        }
+      }
+    }
+    .code-bottom {
+      height: 325px;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 75px;
+
+      .code-bleft {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .la-subtitle {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          width: 125px;
+          height: 32px;
+          border-bottom: 2px solid var(--color2);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+        .la-title {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 45px;
+          font-weight: 600;
+          width: 575px;
+          color: white;
+          text-align: right;
+        }
+        .la-par {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          width: 575px;
+          color: white;
+          text-align: right;
+        }
+      }
+      .code-bright {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+
+        .figma {
+          width: 575px;
+          height: 375px;
+          background-image: url("/css/imgs/figma2.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+          border-radius: 12px;
+        }
+      }
+    }
+  }
+}
+// styling the viewport for 900px
+@media screen and (max-width: 900px) {
+  .code-showcase {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color2);
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .code-title {
+      font-size: 40px;
+      font-weight: 700px;
+    }
+
+    .code-lang {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .code-content {
+        width: 250px;
+        height: 180px;
+        perspective: 1000px;
+
+        .code-items {
+          // cursor: grab;
+          position: relative;
+          transform-style: preserve-3d;
+          width: 100%;
+          height: 100%;
+
+          .code-item {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+
+            img {
+              width: 170px;
+              height: 170px;
+              border-radius: 3px;
+              pointer-events: none;
+              opacity: 0.95;
+              transition: 0.3s;
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              outline: none;
+            }
+          }
+          .code-item:hover img {
+            opacity: 1;
+            scale: 1.05;
+          }
+        }
+      }
+    }
+  }
+  .code2 {
+    width: 100%;
+    height: 1700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color3);
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .code-title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 45px;
+      font-weight: 700px;
+      color: white;
+      width: 350px;
+      height: 50px;
+      // margin-bottom: 250px;
+    }
+    .code-top {
+      height: 325px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 162px;
+
+      .code-tleft {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .la-subtitle {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          width: 125px;
+          height: 32px;
+          border-bottom: 2px solid var(--color2);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+        .la-title {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 45px;
+          font-weight: 600;
+          width: 575px;
+          color: white;
+          text-align: left;
+        }
+        .la-par {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          width: 575px;
+          color: white;
+          text-align: left;
+        }
+      }
+      .code-tright {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        .figma {
+          width: 575px;
+          height: 375px;
+          background-image: url("/css/imgs/figma1.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+          border-radius: 12px;
+        }
+      }
+    }
+    .code-bottom {
+      height: 325px;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 75px;
+
+      .code-bleft {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .la-subtitle {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          width: 125px;
+          height: 32px;
+          border-bottom: 2px solid var(--color2);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+        .la-title {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 45px;
+          font-weight: 600;
+          width: 575px;
+          color: white;
+          text-align: right;
+        }
+        .la-par {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          width: 575px;
+          color: white;
+          text-align: right;
+        }
+      }
+      .code-bright {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+
+        .figma {
+          width: 575px;
+          height: 375px;
+          background-image: url("/css/imgs/figma2.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+          border-radius: 12px;
+        }
+      }
+    }
+  }
+}
+// styling the viewport for 780px
+@media screen and (max-width: 780px) {
+  .code-showcase {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color2);
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .code-title {
+      font-size: 30px;
+      font-weight: 700px;
+      padding-bottom: 30px;
+    }
+
+    .code-lang {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .code-content {
+        width: 250px;
+        height: 180px;
+        perspective: 1000px;
+        padding-left: 80px;
+
+        .code-items {
+          // cursor: grab;
+          position: relative;
+          transform-style: preserve-3d;
+          width: 50%;
+          height: 100%;
+
+          .code-item {
+            width: 90%;
+            height: 90%;
+            position: absolute;
+
+            img {
+              width: 120px;
+              height: 120px;
+              border-radius: 3px;
+              pointer-events: none;
+              opacity: 0.95;
+              transition: 0.3s;
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              outline: none;
+            }
+          }
+          .code-item:hover img {
+            opacity: 1;
+            scale: 1.05;
+          }
+        }
+      }
+    }
+  }
+  .code2 {
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color3);
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+    padding-top: 40px;
+
+    .code-title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 45px;
+      font-weight: 700px;
+      color: white;
+      width: 350px;
+      height: 50px;
+      // margin-bottom: 250px;
+    }
+    .code-top {
+      height: 325px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 162px;
+
+      .code-tleft {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .la-subtitle {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          width: 125px;
+          height: 32px;
+          border-bottom: 2px solid var(--color2);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          margin-bottom: 30px;
+        }
+        .la-title {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 30px;
+          font-weight: 600;
+          width: 370px;
+          color: white;
+          text-align: left;
+        }
+        .la-par {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 20px;
+          width: 370px;
+          color: white;
+          text-align: left;
+        }
+      }
+      .code-tright {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        .figma {
+          width: 375px;
+          height: 275px;
+          background-image: url("/css/imgs/figma1.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+          border-radius: 12px;
+        }
+      }
+    }
+    .code-bottom {
+      height: 325px;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 75px;
+
+      .code-bleft {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .la-subtitle {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          width: 125px;
+          height: 32px;
+          border-bottom: 2px solid var(--color2);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+        .la-title {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 30px;
+          font-weight: 600;
+          width: 370px;
+          color: white;
+          text-align: right;
+        }
+        .la-par {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 20px;
+          width: 370px;
+          color: white;
+          text-align: right;
+        }
+      }
+      .code-bright {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+
+        .figma {
+          width: 375px;
+          height: 275px;
+          background-image: url("/css/imgs/figma2.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+          border-radius: 12px;
+        }
+      }
+    }
+  }
+}
+// styling the viewport for 420px
+@media screen and (max-width: 420px) {
+  .code-showcase {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color2);
+    box-shadow: 0 4px 8px 0 black;
+    padding: 50px;
+
+    .code-title {
+      font-size: 30px;
+      font-weight: 700px;
+      padding-bottom: 30px;
+    }
+
+    .code-lang {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .code-content {
+        width: 150px;
+        height: 180px;
+        perspective: 1000px;
+        padding-left: 80px;
+
+        .code-items {
+          // cursor: grab;
+          position: relative;
+          transform-style: preserve-3d;
+          width: 25%;
+          height: 100%;
+
+          .code-item {
+            width: 40%;
+            height: 40%;
+            position: absolute;
+
+            img {
+              width: 80px;
+              height: 80px;
+              border-radius: 3px;
+              pointer-events: none;
+              opacity: 0.95;
+              transition: 0.3s;
+              background-position: center;
+              background-size: cover;
+              background-repeat: no-repeat;
+              outline: none;
+            }
+          }
+          .code-item:hover img {
+            opacity: 1;
+            scale: 1.05;
+          }
+        }
+      }
+    }
+  }
+  .code2 {
+    width: 100%;
+    height: 1300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--color3);
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+    padding-top: 40px;
+
+    .code-title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 45px;
+      font-weight: 700px;
+      color: white;
+      width: 350px;
+      height: 50px;
+      // margin-bottom: 250px;
+    }
+    .code-top {
+      height: 325px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 162px;
+
+      .code-tleft {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .la-subtitle {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 20px;
+          width: 125px;
+          height: 32px;
+          border-bottom: 2px solid var(--color2);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          margin-bottom: 30px;
+        }
+        .la-title {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          font-weight: 600;
+          width: 300px;
+          color: white;
+          text-align: left;
+        }
+        .la-par {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 18px;
+          width: 300px;
+          color: white;
+          text-align: left;
+        }
+      }
+      .code-tright {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        .figma {
+          width: 300px;
+          height: 250px;
+          background-image: url("/css/imgs/figma1.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+          border-radius: 12px;
+        }
+      }
+    }
+    .code-bottom {
+      height: 325px;
+      width: 100%;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 75px;
+
+      .code-bleft {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .la-subtitle {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 20px;
+          width: 125px;
+          height: 32px;
+          border-bottom: 2px solid var(--color2);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+        }
+        .la-title {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 25px;
+          font-weight: 600;
+          width: 300px;
+          color: white;
+          text-align: right;
+        }
+        .la-par {
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+            sans-serif;
+          font-size: 18px;
+          width: 300px;
+          color: white;
+          text-align: right;
+        }
+      }
+      .code-bright {
+        width: 40vw;
+        height: 45vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+
+        .figma {
+          width: 300px;
+          height: 250px;
+          background-image: url("/css/imgs/figma2.png");
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+          border-radius: 12px;
+        }
+      }
+    }
+  }
+}

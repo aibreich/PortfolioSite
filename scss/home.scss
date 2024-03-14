@@ -1,0 +1,1026 @@
+// home and hero section just the top 1/2 of page when loading in
+.home {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color1);
+  box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+  margin-top: 48px;
+
+  .hero {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: linear-gradient(
+        rgba(87, 205, 255, 0.6),
+        rgba(20, 20, 20, 0.8)
+      ),
+      url("/css/imgs/himalayas-mountains-landscape-4k-f3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 70px;
+
+    .title-holder {
+      height: 100%;
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .home-title {
+        color: white;
+        font-size: 55px;
+        width: 525px;
+        height: 250px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-weight: 700;
+        position: relative;
+        text-align: left;
+      }
+      .home-subtitle {
+        color: white;
+        font-size: 25px;
+        width: 425px;
+        height: 200px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        text-align: right;
+      }
+    }
+    video {
+      width: 840px;
+      height: 470px;
+    }
+  }
+}
+// mini about section about me
+.mini-about {
+  height: 55vh;
+  width: 100%;
+  background-color: var(--color3);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+  .left-ab {
+    width: 27vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .la-subtitle {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 25px;
+      width: 150px;
+      height: 32px;
+      border-bottom: 2px solid var(--color2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .la-title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 45px;
+      font-weight: 600;
+      width: 430px;
+      color: white;
+    }
+    .la-par {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 25px;
+      width: 450px;
+      color: white;
+    }
+  }
+  .middle-img {
+    background-color: grey;
+    width: 27vw;
+    height: 45vh;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    background-image: url(/css/imgs/ikebrof.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+    border-radius: 12px;
+  }
+  .right-ab {
+    //   background-color: red;
+    width: 27vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+
+//about section
+.about-section {
+  height: 50vh;
+  width: 100%;
+  background-color: var(--color3);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+  .left-ab {
+    width: 27vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .la-subtitle {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 25px;
+      width: 175px;
+      height: 32px;
+      border-bottom: 2px solid var(--color2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .la-title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 45px;
+      font-weight: 600;
+      width: 430px;
+      color: white;
+    }
+    .la-par {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 25px;
+      width: 450px;
+      color: white;
+    }
+  }
+  .left-ab2 {
+    width: 40vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .la-subtitle {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 25px;
+      width: 175px;
+      height: 32px;
+      border-bottom: 2px solid var(--color2);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+    }
+    .la-title {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 45px;
+      font-weight: 600;
+      width: 430px;
+      color: white;
+    }
+    .la-par {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      font-size: 25px;
+      width: 450px;
+      color: white;
+    }
+  }
+  .right-ab {
+    //   background-color: red;
+    width: 27vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .right-ab2 {
+    //   background-color: red;
+    width: 40vw;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .wireframe {
+      width: 575px;
+      height: 375px;
+      background-image: url("/css/imgs/wireframe.png");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+      border-radius: 12px;
+    }
+  }
+}
+
+// scroll animation section
+.hidden {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+.view {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+// second version for opposite animation
+.hidden2 {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  transition: all 1s;
+}
+
+.view2 {
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+
+// for users who prefer reduced motion
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+// styling the viewport for 1400px
+@media screen and (max-width: 1400px) {
+  .home {
+    .hero {
+      width: 100vw;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .title-holder {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .home-title {
+          font-size: 50px;
+          width: 470px;
+          height: 250px;
+          font-weight: 700;
+        }
+        .home-subtitle {
+          font-size: 20px;
+          width: 470px;
+          height: 200px;
+        }
+      }
+      video {
+        width: 840px;
+        height: 470px;
+      }
+    }
+  }
+  .mini-about {
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    // flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .left-ab {
+      width: 27vw;
+      height: 29vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .la-subtitle {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 25px;
+        width: 150px;
+        height: 32px;
+        border-bottom: 2px solid var(--color2);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        width: 430px;
+      }
+      .la-par {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-size: 22px;
+        width: 450px;
+      }
+    }
+    .middle-img {
+      background-color: grey;
+      width: 320px;
+      height: 340px;
+      padding-left: 30px;
+      padding-right: 30px;
+
+      background-image: url(/css/imgs/ikebrof.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .right-ab {
+      //   background-color: red;
+      width: 27vw;
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      img {
+        width: 275px;
+        height: 120px;
+      }
+    }
+  }
+  .contact {
+    height: 22vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .contact-title {
+      font-size: 40px;
+      font-weight: 600;
+    }
+    .contact-subtitle {
+      font-size: 25px;
+      padding-top: 30px;
+      padding-bottom: 50px;
+    }
+    .mailbox {
+      width: 180px;
+      height: 35px;
+      border-radius: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .email-link {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// styling the viewport for 1200px
+@media screen and (max-width: 1200px) {
+  .home {
+    .hero {
+      width: 100vw;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .title-holder {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .home-title {
+          font-size: 50px;
+          width: 470px;
+          height: 250px;
+          font-weight: 700;
+        }
+        .home-subtitle {
+          font-size: 20px;
+          width: 470px;
+          height: 200px;
+        }
+      }
+      video {
+        width: 840px;
+        height: 470px;
+      }
+    }
+  }
+  .mini-about {
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+    .left-ab {
+      width: 50vw;
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 70px;
+
+      .la-subtitle {
+        font-size: 25px;
+        width: 150px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-size: 40px;
+        font-weight: 600;
+        width: 700px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .la-par {
+        font-size: 22px;
+        width: 700px;
+      }
+    }
+    .middle-img {
+      width: 320px;
+      height: 340px;
+      padding-top: 60px;
+      padding-bottom: 30px;
+
+      background-image: url(/css/imgs/ikebrof.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .right-ab {
+      width: 35vw;
+      height: 45vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      img {
+        width: 375px;
+        height: 180px;
+      }
+    }
+  }
+  .about-section {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+
+    .left-ab2 {
+      width: 50vw;
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 100px;
+
+      .la-subtitle {
+        font-size: 25px;
+        width: 175px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-size: 40px;
+        font-weight: 600;
+        width: 575px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .la-par {
+        font-size: 25px;
+        width: 575px;
+      }
+    }
+
+    .right-ab2 {
+      width: 750px;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 50px;
+      .wireframe {
+        width: 575px;
+        height: 520px;
+      }
+    }
+  }
+}
+// styling the viewport for 900px
+@media screen and (max-width: 900px) {
+  .home {
+    .hero {
+      width: 100vw;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .title-holder {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .home-title {
+          font-size: 50px;
+          width: 470px;
+          height: 250px;
+          font-weight: 700;
+        }
+        .home-subtitle {
+          font-size: 20px;
+          width: 470px;
+          height: 200px;
+        }
+      }
+      video {
+        width: 840px;
+        height: 470px;
+      }
+    }
+  }
+  .mini-about {
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+
+    .left-ab {
+      width: 50vw;
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 70px;
+
+      .la-subtitle {
+        font-size: 25px;
+        width: 150px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-size: 40px;
+        font-weight: 600;
+        width: 700px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .la-par {
+        font-size: 25px;
+        width: 700px;
+      }
+    }
+    .middle-img {
+      width: 320px;
+      height: 340px;
+      padding-top: 60px;
+      padding-bottom: 30px;
+
+      background-image: url(/css/imgs/ikebrof.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .right-ab {
+      width: 27vw;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      img {
+        width: 275px;
+        height: 120px;
+      }
+    }
+  }
+  .about-section {
+    height: 95vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+
+    .left-ab2 {
+      width: 50vw;
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 100px;
+
+      .la-subtitle {
+        font-size: 25px;
+        width: 175px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-size: 40px;
+        font-weight: 600;
+        width: 575px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .la-par {
+        font-size: 25px;
+        width: 575px;
+      }
+    }
+
+    .right-ab2 {
+      width: 750px;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 50px;
+      .wireframe {
+        width: 575px;
+        height: 520px;
+      }
+    }
+  }
+}
+// styling viewport for 780px
+@media screen and (max-width: 780px) {
+  .home {
+    .hero {
+      width: 100vw;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .title-holder {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .home-title {
+          font-size: 40px;
+          width: 370px;
+          height: 250px;
+          font-weight: 700;
+        }
+        .home-subtitle {
+          font-size: 20px;
+          width: 370px;
+          height: 200px;
+        }
+      }
+      video {
+        width: 840px;
+        height: 470px;
+      }
+    }
+  }
+  .mini-about {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+    .left-ab {
+      width: 50vw;
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 70px;
+
+      .la-subtitle {
+        font-size: 20px;
+        width: 150px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-size: 30px;
+        font-weight: 600;
+        width: 370px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .la-par {
+        font-size: 20px;
+        width: 370px;
+      }
+    }
+    .middle-img {
+      width: 320px;
+      height: 340px;
+      padding-top: 60px;
+      padding-bottom: 30px;
+
+      background-image: url(/css/imgs/ikebrof.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .right-ab {
+      width: 27vw;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      img {
+        width: 275px;
+        height: 120px;
+      }
+    }
+  }
+  .about-section {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+
+    .left-ab2 {
+      width: 50vw;
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 100px;
+
+      .la-subtitle {
+        font-size: 25px;
+        width: 175px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-size: 30px;
+        font-weight: 600;
+        width: 370px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .la-par {
+        font-size: 20px;
+        width: 370px;
+      }
+    }
+
+    .right-ab2 {
+      width: 370px;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 50px;
+      .wireframe {
+        width: 370px;
+        height: 420px;
+      }
+    }
+  }
+}
+// styling viewport for 420px
+@media screen and (max-width: 420px) {
+  .home {
+    .hero {
+      width: 100vw;
+      height: 50vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .title-holder {
+        height: 80%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .home-title {
+          font-size: 36px;
+          width: 330px;
+          height: 250px;
+          font-weight: 700;
+        }
+        .home-subtitle {
+          font-size: 18px;
+          width: 270px;
+          height: 200px;
+        }
+      }
+      video {
+        width: 840px;
+        height: 470px;
+      }
+    }
+  }
+  .mini-about {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+    .left-ab {
+      width: 50vw;
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 70px;
+
+      .la-subtitle {
+        font-size: 20px;
+        width: 150px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-size: 25px;
+        font-weight: 600;
+        width: 300px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .la-par {
+        font-size: 18px;
+        width: 300px;
+      }
+    }
+    .middle-img {
+      width: 320px;
+      height: 340px;
+      padding-top: 60px;
+      padding-bottom: 30px;
+
+      background-image: url(/css/imgs/ikebrof.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .right-ab {
+      width: 27vw;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      img {
+        width: 275px;
+        height: 120px;
+      }
+    }
+  }
+  .about-section {
+    height: 85vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+
+    .left-ab2 {
+      width: 50vw;
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 100px;
+
+      .la-subtitle {
+        font-size: 20px;
+        width: 175px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-size: 25px;
+        font-weight: 600;
+        width: 300px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .la-par {
+        font-size: 18px;
+        width: 300px;
+      }
+    }
+
+    .right-ab2 {
+      width: 370px;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 50px;
+      .wireframe {
+        width: 300px;
+        height: 320px;
+      }
+    }
+  }
+}
