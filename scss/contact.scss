@@ -47,7 +47,7 @@
     }
   }
 }
-
+// styling viewport for 1200px
 @media screen and (max-width: 1200px) {
   .contact {
     height: 35vh;
@@ -81,6 +81,7 @@
     }
   }
 }
+// styling viewport for 900px
 @media screen and (max-width: 900px) {
   .contact {
     height: 32vh;
@@ -114,6 +115,7 @@
     }
   }
 }
+// styling viewport for 780px
 @media screen and (max-width: 780px) {
   .contact {
     height: 32vh;
@@ -131,7 +133,41 @@
     .contact-subtitle {
       font-size: 25px;
       padding-top: 30px;
-      padding-bottom: 50px;
+      padding-bottom: 25px;
+    }
+    .mailbox {
+      width: 180px;
+      height: 35px;
+      border-radius: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .email-link {
+        font-size: 20px;
+      }
+    }
+  }
+}
+// styling viewport for 420px
+@media screen and (max-width: 420px) {
+  .contact {
+    height: 35vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 25px;
+    box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
+
+    .contact-title {
+      font-size: 30px;
+      font-weight: 600;
+    }
+    .contact-subtitle {
+      font-size: 22px;
+      padding-top: 30px;
+      padding-bottom: 25px;
     }
     .mailbox {
       width: 180px;
