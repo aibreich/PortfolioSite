@@ -875,8 +875,8 @@
     }
   }
 }
-// styling viewport for 420px
-@media screen and (max-width: 420px) {
+// styling viewport for 450px
+@media screen and (max-width: 450px) {
   .home {
     .hero {
       width: 100vw;
@@ -973,7 +973,7 @@
     }
   }
   .about-section {
-    height: 90vh;
+    height: 85vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
