@@ -2863,7 +2863,7 @@ nav {
 
 @media screen and (max-width: 450px) {
   .contact {
-    height: 35vh;
+    height: 25vh;
     width: 100%;
     display: flex;
     flex-direction: column;
