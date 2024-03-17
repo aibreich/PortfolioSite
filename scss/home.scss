@@ -1164,7 +1164,7 @@
     }
 
     .right-ab2 {
-      width: 370px;
+      width: 350px;
       height: 25vh;
       display: flex;
       align-items: center;
@@ -1173,6 +1173,157 @@
       .wireframe {
         width: 300px;
         height: 320px;
+      }
+    }
+  }
+}
+// styling viewport for 325px
+@media screen and (max-width: 325px) {
+  .home {
+    .hero {
+      width: 100vw;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+
+      .title-holder {
+        height: 80%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .home-title {
+          font-size: 25px;
+          width: 280px;
+          height: 250px;
+          font-weight: 700;
+        }
+        .home-subtitle {
+          font-size: 16px;
+          width: 270px;
+          height: 200px;
+        }
+      }
+      video {
+        width: 840px;
+        height: 470px;
+      }
+    }
+  }
+  .mini-about {
+    height: 1000px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 40px;
+
+    .left-ab {
+      width: 50vw;
+      height: 320px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 70px;
+
+      .la-subtitle {
+        font-size: 20px;
+        width: 150px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-size: 25px;
+        font-weight: 600;
+        width: 280px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .la-par {
+        font-size: 18px;
+        width: 280px;
+      }
+    }
+    .middle-img {
+      width: 280px;
+      height: 340px;
+      padding-top: 30px;
+      padding-bottom: 30px;
+
+      background-image: url(../css/imgs/ikebrof.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .right-ab {
+      width: 27vw;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 30px;
+      img {
+        width: 275px;
+        height: 120px;
+      }
+    }
+  }
+  .about-section {
+    height: 780px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 80px;
+
+    .left-ab2 {
+      width: 50vw;
+      height: 220px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-bottom: 100px;
+
+      .la-subtitle {
+        font-size: 20px;
+        width: 175px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .la-title {
+        font-size: 25px;
+        font-weight: 600;
+        width: 280px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+      .la-par {
+        font-size: 18px;
+        width: 280px;
+      }
+    }
+
+    .right-ab2 {
+      width: 320px;
+      height: 25vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      padding-top: 50px;
+      .wireframe {
+        width: 280px;
+        height: 300px;
       }
     }
   }
