@@ -1147,7 +1147,7 @@ nav {
 
 .mini-about {
   height: 675px;
-  width: 100%;
+  width: 100vw;
   background-color: var(--color3);
   display: flex;
   align-items: center;
