@@ -1199,6 +1199,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-evenly; }
+    .mini-about .right-ab img {
+      width: 330px; }
 
 .about-section {
   height: 620px;
