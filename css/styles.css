@@ -329,7 +329,7 @@ footer {
 
 @media screen and (max-width: 780px) {
   footer {
-    height: 45%;
+    height: 55%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -392,7 +392,7 @@ footer {
 
 @media screen and (max-width: 450px) {
   footer {
-    height: 45%;
+    height: 60%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -456,7 +456,7 @@ footer {
 
 @media screen and (max-width: 380px) {
   footer {
-    height: 50%;
+    height: 75%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1187,7 +1187,7 @@ nav {
     height: 45vh;
     padding-left: 30px;
     padding-right: 30px;
-    background-image: url(../css/imgs/ikebrof.jpg);
+    background-image: url(../css/imgs/me.JPG);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -1375,7 +1375,6 @@ nav {
       height: 340px;
       padding-left: 30px;
       padding-right: 30px;
-      background-image: url(../css/imgs/ikebrof.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
@@ -1472,17 +1471,16 @@ nav {
         font-size: 22px;
         width: 700px; }
     .mini-about .middle-img {
-      width: 320px;
-      height: 340px;
+      width: 420px;
+      height: 580px;
       padding-top: 60px;
       padding-bottom: 30px;
-      background-image: url(../css/imgs/ikebrof.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
     .mini-about .right-ab {
       width: 35vw;
-      height: 45vh;
+      height: 300px;
       display: flex;
       align-items: center;
       justify-content: space-evenly; }
@@ -1559,7 +1557,7 @@ nav {
       width: 840px;
       height: 470px; }
   .mini-about {
-    height: 95vh;
+    height: 1000px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -1591,20 +1589,20 @@ nav {
         font-size: 25px;
         width: 700px; }
     .mini-about .middle-img {
-      width: 320px;
-      height: 340px;
-      padding-top: 60px;
+      width: 420px;
+      height: 480px;
+      padding-top: 00px;
       padding-bottom: 30px;
-      background-image: url(../css/imgs/ikebrof.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
     .mini-about .right-ab {
       width: 27vw;
-      height: 25vh;
+      height: 150px;
       display: flex;
       align-items: center;
-      justify-content: space-evenly; }
+      justify-content: space-evenly;
+      padding-top: 30px; }
       .mini-about .right-ab img {
         width: 275px;
         height: 120px; }
@@ -1680,7 +1678,7 @@ nav {
         width: 840px;
         height: 470px; }
   .mini-about {
-    height: 85vh;
+    height: 95vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -1712,11 +1710,10 @@ nav {
         font-size: 20px;
         width: 370px; }
     .mini-about .middle-img {
-      width: 320px;
-      height: 340px;
-      padding-top: 60px;
-      padding-bottom: 30px;
-      background-image: url(../css/imgs/ikebrof.jpg);
+      width: 350px;
+      height: 480px;
+      padding-top: 30px;
+      padding-bottom: 0px;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
@@ -1730,7 +1727,7 @@ nav {
         width: 275px;
         height: 120px; }
   .about-section {
-    height: 75vh;
+    height: 88vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -1835,7 +1832,6 @@ nav {
       height: 340px;
       padding-top: 60px;
       padding-bottom: 30px;
-      background-image: url(../css/imgs/ikebrof.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
@@ -1933,7 +1929,7 @@ nav {
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      padding-bottom: 70px; }
+      padding-bottom: 30px; }
       .mini-about .left-ab .la-subtitle {
         font-size: 20px;
         width: 150px;
@@ -1955,7 +1951,6 @@ nav {
       height: 340px;
       padding-top: 30px;
       padding-bottom: 30px;
-      background-image: url(../css/imgs/ikebrof.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
@@ -2075,7 +2070,6 @@ nav {
       height: 340px;
       padding-top: 30px;
       padding-bottom: 30px;
-      background-image: url(../css/imgs/ikebrof.jpg);
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat; }
@@ -3247,7 +3241,7 @@ nav {
 
 @media screen and (max-width: 780px) {
   .contact {
-    height: 22vh;
+    height: 25vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -3299,7 +3293,7 @@ nav {
 
 @media screen and (max-width: 380px) {
   .contact {
-    height: 23vh;
+    height: 30vh;
     width: 100%;
     display: flex;
     flex-direction: column;
