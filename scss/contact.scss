@@ -1,6 +1,6 @@
 // contact subsection
 .contact {
-  height: 35vh;
+  height: 350px;
   width: 100%;
   background-color: var(--color1);
   display: flex;
@@ -50,12 +50,12 @@
 // styling viewport for 1200px
 @media screen and (max-width: 1200px) {
   .contact {
-    height: 35vh;
+    height: 300px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 30px;
     box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
 
     .contact-title {
@@ -84,12 +84,12 @@
 // styling viewport for 900px
 @media screen and (max-width: 900px) {
   .contact {
-    height: 32vh;
+    height: 22vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 30px;
     box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
 
     .contact-title {
@@ -118,12 +118,12 @@
 // styling viewport for 780px
 @media screen and (max-width: 780px) {
   .contact {
-    height: 32vh;
+    height: 22vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 40px;
     box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
 
     .contact-title {
@@ -186,7 +186,7 @@
 // styling viewport for 380px
 @media screen and (max-width: 380px) {
   .contact {
-    height: 30vh;
+    height: 23vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -220,7 +220,7 @@
 // styling viewport for 325px
 @media screen and (max-width: 325px) {
   .contact {
-    height: 35vh;
+    height: 15vh;
     width: 100%;
     display: flex;
     flex-direction: column;

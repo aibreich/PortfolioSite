@@ -49,8 +49,8 @@
   }
   .middle-img {
     background-color: grey;
-    width: 17vw;
-    height: 45vh;
+    // width: 17vw;
+    // height: 45vh;
     padding-left: 30px;
     padding-right: 30px;
     display: flex;
@@ -60,8 +60,8 @@
     border-radius: 12px;
 
     video {
-      width: 220px;
-      height: 550px;
+      width: 375px;
+      height: 465px;
     }
   }
   .right-ab {
@@ -79,7 +79,7 @@
 // styling the viewport for 1200px
 @media screen and (max-width: 1200px) {
   .about-me {
-    height: 105vh;
+    height: 1150px;
     width: 100%;
     background-color: var(--color1);
     display: flex;
@@ -90,12 +90,12 @@
 
     .left-ab {
       width: 27vw;
-      height: 45vh;
+      height: 350px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      padding-top: 50px;
+      padding-top: 0px;
 
       .la-subtitle {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -130,8 +130,8 @@
     }
     .middle-img {
       background-color: grey;
-      width: 17vw;
-      height: 45vh;
+      // width: 17vw;
+      // height: 45vh;
       padding-left: 30px;
       padding-right: 30px;
       display: flex;
@@ -139,7 +139,7 @@
       justify-content: space-evenly;
       box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
       border-radius: 12px;
-      margin-top: 100px;
+      margin-top: 50px;
       video {
         width: 370px;
         height: 575px;
@@ -158,7 +158,7 @@
 // styling the viewport for 900px
 @media screen and (max-width: 900px) {
   .about-me {
-    height: 95vh;
+    height: 1150px;
     width: 100%;
     background-color: var(--color1);
     display: flex;
@@ -169,12 +169,12 @@
 
     .left-ab {
       width: 27vw;
-      height: 45vh;
+      height: 350px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
-      padding-top: 50px;
+      padding-top: 0px;
 
       .la-subtitle {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -209,8 +209,8 @@
     }
     .middle-img {
       background-color: grey;
-      width: 17vw;
-      height: 45vh;
+      // width: 17vw;
+      // height: 45vh;
       padding-left: 30px;
       padding-right: 30px;
       display: flex;
@@ -218,7 +218,7 @@
       justify-content: space-evenly;
       box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
       border-radius: 12px;
-      margin-top: 100px;
+      margin-top: 30px;
       video {
         width: 370px;
         height: 575px;
@@ -237,7 +237,7 @@
 // styling viewport for 780px
 @media screen and (max-width: 780px) {
   .about-me {
-    height: 100vh;
+    height: 1050px;
     width: 100%;
     background-color: var(--color1);
     display: flex;
@@ -248,13 +248,13 @@
 
     .left-ab {
       width: 27vw;
-      height: 45vh;
+      height: 230px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
       // padding-top: 50px;
-      margin-top: -40px;
+      margin-top: -20px;
 
       .la-subtitle {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -290,8 +290,8 @@
     }
     .middle-img {
       background-color: grey;
-      width: 17vw;
-      height: 45vh;
+      // width: 17vw;
+      // height: 45vh;
       padding-left: 30px;
       padding-right: 30px;
       display: flex;
@@ -299,7 +299,7 @@
       justify-content: space-evenly;
       box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
       border-radius: 12px;
-      margin-top: 100px;
+      margin-top: 30px;
       video {
         width: 370px;
         height: 575px;
@@ -318,7 +318,7 @@
 // styling viewport for 450px
 @media screen and (max-width: 450px) {
   .about-me {
-    height: 108vh;
+    height: 1000px;
     width: 100%;
     background-color: var(--color1);
     display: flex;
@@ -329,7 +329,7 @@
 
     .left-ab {
       width: 27vw;
-      height: 45vh;
+      height: 230px;
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -371,8 +371,8 @@
     }
     .middle-img {
       background-color: grey;
-      width: 17vw;
-      height: 45vh;
+      // width: 17vw;
+      // height: 45vh;
       padding-left: 30px;
       padding-right: 30px;
       display: flex;
@@ -380,9 +380,9 @@
       justify-content: space-evenly;
       box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
       border-radius: 12px;
-      margin-top: 100px;
+      margin-top: 30px;
       video {
-        width: 320px;
+        width: 260px;
         height: 475px;
       }
     }
@@ -399,7 +399,7 @@
 // styling viewport for 380px
 @media screen and (max-width: 380px) {
   .about-me {
-    height: 800px;
+    height: 950px;
     padding-top: 30px;
     width: 100%;
     background-color: var(--color1);
@@ -411,13 +411,13 @@
 
     .left-ab {
       width: 27vw;
-      height: 45vh;
+      height: 200px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
       // padding-top: 50px;
-      margin-top: -40px;
+      margin-top: -0px;
 
       .la-subtitle {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -453,8 +453,8 @@
     }
     .middle-img {
       background-color: grey;
-      width: 17vw;
-      height: 45vh;
+      // width: 17vw;
+      // height: 45vh;
       padding-left: 30px;
       padding-right: 30px;
       display: flex;
@@ -462,10 +462,10 @@
       justify-content: space-evenly;
       box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
       border-radius: 12px;
-      margin-top: 100px;
+      margin-top: 50px;
       video {
-        width: 300px;
-        height: 425px;
+        width: 240px;
+        height: 475px;
       }
     }
     .right-ab {
@@ -481,7 +481,7 @@
 // styling viewport for 325px
 @media screen and (max-width: 325px) {
   .about-me {
-    height: 800px;
+    height: 900px;
     padding-top: 30px;
     width: 100%;
     background-color: var(--color1);
@@ -493,13 +493,13 @@
 
     .left-ab {
       width: 27vw;
-      height: 45vh;
+      height: 230px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-evenly;
       // padding-top: 50px;
-      margin-top: -40px;
+      margin-top: -10px;
 
       .la-subtitle {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -535,8 +535,8 @@
     }
     .middle-img {
       background-color: grey;
-      width: 17vw;
-      height: 45vh;
+      // width: 17vw;
+      // height: 45vh;
       padding-left: 30px;
       padding-right: 30px;
       display: flex;
@@ -544,10 +544,10 @@
       justify-content: space-evenly;
       box-shadow: 0 4px 8px 0 black, 0 4px 8px 0 black;
       border-radius: 12px;
-      margin-top: 140px;
+      margin-top: 60px;
       video {
-        width: 300px;
-        height: 425px;
+        width: 220px;
+        height: 475px;
       }
     }
     .right-ab {
